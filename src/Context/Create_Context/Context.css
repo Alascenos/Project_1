@@ -1,0 +1,101 @@
+.dark-mode {
+    background: #121212; /* или любой тёмный цвет */
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  body.dark-mode {
+    background: #fff;
+    color: #222;
+  }
+  
+  /* Примерно для всего приложения */
+  body.dark-mode .App {
+    background: #fff;
+    color: #222;
+  }
+  
+  /* Для шапки */
+  body.dark-mode .header {
+    background: #fff;
+    color: #222;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  body.dark-mode .icon_sun {
+    background: #fff;
+  }
+  
+  /* Для навбара */
+  body.dark-mode .navbar {
+    background: #fff;
+    color: #222f;
+  }
+  
+  body.dark-mode .item {
+    background: #fff;
+    color: #222;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  body.dark-mode .item h2 {
+    background: #fff;
+    color: #222;
+  }
+  
+  body.dark-mode .item p {
+    background: #fff;
+    color: #222;
+  }
+  
+  
+  body.dark-mode .item .form-switch .form-check-input {
+    background-color: rgb(198, 198, 198);
+    color: #222;
+  }
+  
+  body.dark-mode .form-switch .form-check-input:checked {
+    background-color: #f40101; /* активный цвет, можно заменить */
+  }
+  
+  
+  
+  body.dark-mode .btn {
+    background: #fff;
+    color: #222;
+  
+  }
+  
+  
+  body.dark-mode .nav-link {
+    background: #fff;
+    color: #222;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  body.dark-mode .nav-link.active{
+    background-color: rgb(291, 92, 85);
+    color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  
+  body.dark-mode .nav-link:hover{   
+    background-color: rgb(291, 92, 85);
+    color: white;
+  }
+  
+  
+  
+  body.dark-mode .h1_E {
+    color: #222f;
+  }
+  
+  /* Для контента */
+  body.dark-mode .content {
+    background: #fff;
+    color: #222;
+  }
+  

@@ -1,0 +1,38 @@
+.item{
+    background-color: rgb(31,37 ,53);
+        min-height: 200px; /* или подбери нужную высоту */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     
+}
+
+h2{
+    color: rgb(251, 255, 255);
+}
+
+p{
+    color: rgb(251, 255, 255);
+    font-size: 85%;
+}
+
+.form-switch .form-check-input {
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #343a40; /* темно-серый фон */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .form-switch .form-check-input:checked {
+    background-color: #f40101; /* активный цвет, можно заменить */
+  }
+
+  .form-switch .form-check-input:focus {
+    box-shadow: none;
+  }
+
+  .btn{
+    border: solid 0.5px rgb(83, 89, 105);
+  }
+

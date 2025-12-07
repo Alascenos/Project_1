@@ -1,0 +1,12 @@
+
+.nav-link.active {
+    background-color: rgb(291, 92, 85);
+    color: black;
+}
+
+.btn:hover{
+    
+    background-color: rgb(291, 92, 85);
+    color: black;
+
+}

@@ -1,0 +1,44 @@
+h1{
+    color: rgb(240,245 ,247);
+}
+
+button{
+    color: rgb(231, 235, 241);
+    background-color: rgb(47, 53, 75);
+    padding: 5%;
+    border: none;
+    outline: none;
+}
+
+li{
+    display: inline;
+}
+
+.nav-links {
+    display: flex;
+    
+    list-style: none;
+    align-items: center;
+
+}
+
+.nav-link {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 53, 75);
+    color: azure;
+}
+
+
+.nav-link.active {
+    background-color: rgb(291, 92, 85);
+    color: black;
+}
+
+.btn:hover{
+    
+    background-color: rgb(291, 92, 85);
+    color: black;
+
+}
+
